@@ -1,0 +1,73 @@
+{
+  "feedback": [
+    {
+      "displayName": "Good",
+      "value": "GOOD",
+      "image": "../images/images1.jpg"
+    },
+    {
+      "displayName": "Normal",
+      "value": "NORM",
+      "image": "../images/images2.jpg"
+    },
+    {
+      "displayName": "Bad",
+      "value": "BAD",
+      "image": "../images/images3.jpg"
+    }
+  ],
+  "overview": [
+    {
+      "today": [
+        {
+          "displayName": "Good",
+          "value": "30"
+        },
+        {
+          "displayName": "Normal",
+          "value": "20"
+        },
+        {
+          "displayName": "Bad",
+          "value": "50"
+        }
+      ],
+      "thisWeek": [
+        {
+          "displayName": "Good",
+          "value": "30"
+        },
+        {
+          "displayName": "Normal",
+          "value": "20"
+        },
+        {
+          "displayName": "Bad",
+          "value": "70"
+        }
+      ]
+    }
+  ],
+  "feedbacksave": [
+    {
+      "feedbackVal": "good",
+      "id": 1
+    },
+    {
+      "feedbackVal": "normal",
+      "id": 2
+    },
+    {
+      "feedbackVal": "good",
+      "id": 3
+    },
+    {
+      "feedbackVal": "good",
+      "id": 4
+    },
+    {
+      "feedbackVal": "good",
+      "id": 5
+    }
+  ]
+}
