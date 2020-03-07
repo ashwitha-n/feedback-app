@@ -56,7 +56,8 @@ class App extends React.Component{
 		super(props); 
 
 		//this.state = {isScreen : true}; 
-		this.state = {isScreen : "feedback"}
+		//this.state = {isScreen : "feedback"}
+		this.state = {isScreen : "analysis"}
 
 		this.ifSubmitClicked = this.ifSubmitClicked.bind(this); 
 		this.ifOverviewClicked = this.ifOverviewClicked.bind(this); 
