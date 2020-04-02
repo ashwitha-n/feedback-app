@@ -42,7 +42,7 @@ class Analysis extends Component{
 
     render(){
         return(
-            <div>
+            <div style={{height:"100%",width:"100%"}}>
             Analysis:
             <C3Chart data={this.state}/>
             </div>
