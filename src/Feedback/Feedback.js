@@ -2,6 +2,7 @@ import React , {Component} from 'react';
 import emoji1 from "../images/images1.jpg";
 import emoji2 from "../images/images2.jpg";
 import emoji3 from "../images/images3.jpg";
+import "../Feedback/Feedback.css"
 
 class Feedback extends Component{
     state={
@@ -23,7 +24,6 @@ class Feedback extends Component{
             var fb=JSON.parse(xhr.responseText)
             this.setState({feedback: fb})
             //console.log(this.state.feedback)
-            
         })
         xhr.open('GET' ,'http://localhost:4000/feedback')
         xhr.send()
@@ -42,12 +42,9 @@ class Feedback extends Component{
         })
     }
 
-    render(){
-
-        
+    render(){        
         return(
             <div>
-                
                 <img src={emoji1} alt={"excellent"}></img>
                 <button onClick={this.click} value="good">{this.state.feedback[0].displayName}</button>
                 <br></br>

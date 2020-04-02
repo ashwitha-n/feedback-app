@@ -1,0 +1,13 @@
+button{
+    color: rgb(8, 8, 8);
+    margin: 4%;
+    background-color: ivory;
+}
+div{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+img{
+    margin-top: 10px;
+}
